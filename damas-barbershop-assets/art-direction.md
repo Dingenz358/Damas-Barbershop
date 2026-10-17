@@ -1,4 +1,7 @@
-# Damas Barbershop — Art Direction (Entwurf, wartet auf Freigabe)
+# Damas Barbershop — Art Direction
+
+> **Entscheidung:** Logo macht Claude Desktop später. Finales Paket = Option A ohne Logo:
+> 6 Bilder × 2 Credits = 12 + 2 Reserve. Befehle: `generate-commands.md`.
 
 ## Marke in einem Satz
 „Wie zu Besuch beim Cousin“ — familiär und locker, aber präzise und makellos gepflegt.

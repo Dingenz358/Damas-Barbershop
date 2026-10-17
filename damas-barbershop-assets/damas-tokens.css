@@ -1,0 +1,88 @@
+/* Damas Barbershop: Design-Tokens und Muster, ohne Credits gebaut */
+
+:root {
+  /* Palette (siehe palette.md) */
+  --damas-salon:   #F3F1EC;
+  --damas-marble:  #CFCAC4;
+  --damas-oak:     #C08A55;
+  --damas-chrome:  #B8BCC0;
+  --damas-leather: #141414;
+  --damas-gold:    #E0A24E;
+
+  /* Abgeleitet */
+  --damas-oak-dark:   #9C6B3D;
+  --damas-text:       var(--damas-leather);
+  --damas-text-muted: #5A5753;
+  --damas-line:       rgba(20, 20, 20, 0.12);
+
+  /* Typografie */
+  --damas-font-display: "Fraunces", Georgia, serif;
+  --damas-font-body:    "Manrope", system-ui, sans-serif;
+
+  --damas-radius: 4px;
+}
+
+body {
+  background: var(--damas-salon);
+  color: var(--damas-text);
+  font-family: var(--damas-font-body);
+}
+
+/* Holzlamellen wie an der Wand im Laden: senkrechte Eichenstreifen mit schmaler schwarzer Fuge */
+.damas-slats {
+  background-color: var(--damas-oak);
+  background-image:
+    repeating-linear-gradient(90deg,
+      transparent 0 26px,
+      var(--damas-leather) 26px 30px),
+    linear-gradient(180deg, rgba(255,255,255,0.08), rgba(0,0,0,0.12));
+}
+
+/* Dezente Variante als Overlay hinter Text */
+.damas-slats-subtle {
+  position: relative;
+  isolation: isolate;
+}
+.damas-slats-subtle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: repeating-linear-gradient(90deg,
+    transparent 0 26px, var(--damas-oak) 26px 28px);
+  opacity: 0.12;
+}
+
+/* Marmorfläche: generierte Textur, mit Salon Weiß überblendet, damit Text lesbar bleibt */
+.damas-marble {
+  background:
+    linear-gradient(rgba(243, 241, 236, 0.72), rgba(243, 241, 236, 0.72)),
+    url("extras/textures/damas-marble.png") center / cover;
+}
+
+/* „Nacht“-Sektion: Chesterfield + Gold, max. 1–2 pro Seite */
+.damas-night {
+  background: var(--damas-leather);
+  color: var(--damas-salon);
+}
+.damas-night .damas-accent { color: var(--damas-gold); }
+
+/* Goldene Haarlinie als Trenner */
+.damas-rule {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--damas-gold), transparent);
+}
+
+/* Motion-Ersatz: langsamer Ken-Burns-Zoom auf dem Banner */
+@keyframes damas-kenburns {
+  from { transform: scale(1.0) translate3d(0, 0, 0); }
+  to   { transform: scale(1.08) translate3d(-1.5%, -1%, 0); }
+}
+.damas-kenburns {
+  animation: damas-kenburns 24s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .damas-kenburns { animation: none; }
+}
