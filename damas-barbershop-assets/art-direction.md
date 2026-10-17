@@ -2,6 +2,7 @@
 
 > **Entscheidung:** Logo macht Claude Desktop später. Finales Paket = Option A ohne Logo:
 > 6 Bilder × 2 Credits = 12 + 2 Reserve. Befehle: `generate-commands.md`.
+> **Status: alle 6 Bilder generiert und im Repo (12 Credits), siehe `manifest.md`.**
 
 ## Marke in einem Satz
 „Wie zu Besuch beim Cousin“ — familiär und locker, aber präzise und makellos gepflegt.

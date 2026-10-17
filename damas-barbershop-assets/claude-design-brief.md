@@ -40,4 +40,4 @@ Eiche & Marmor
 - Leistungen: Haarschnitt/Fade, Bart, Kinderhaarschnitte, Styling
 - Noch offen: Öffnungszeiten, Telefon, Preise und Instagram/TikTok fehlen. Die Rabatte stammen aus dem Zeitungsartikel zur Eröffnung und sollten bestätigt werden.
 
-**Assets:** Das Asset-Pack liegt im Repo unter `damas-barbershop-assets/`: Banner, Service-Heroes Fade und Bart (Kids folgt), Werkzeug-Flat-Lay, Marmor-Textur und `damas-tokens.css` mit Lamellen-Muster. Das Logo (goldenes Rund-Badge mit Bartmann) wird separat geliefert.
+**Assets:** Das Asset-Pack liegt im Repo unter `damas-barbershop-assets/`: Banner, 3 Service-Heroes (Fade, Bart, Kids), Werkzeug-Flat-Lay, Marmor-Textur und `damas-tokens.css` mit Lamellen-Muster. Das Logo (goldenes Rund-Badge mit Bartmann) wird separat geliefert.
