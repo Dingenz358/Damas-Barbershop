@@ -4,7 +4,7 @@ Stand: 17.10.2026 · Higgsfield-Workspace „Private“, 28 Credits · Budget ma
 
 | Datei | Modell | Format | Credits | Status | Prompt |
 | --- | --- | --- | --- | --- | --- |
-| `banner/damas-banner.png` | nano_banana_pro 2k (+2 Referenzen) | 16:9 | 2 | ausstehend | generate-commands.md §1 |
+| `banner/damas-banner.png` | nano_banana_pro 2k (+2 Referenzen) | 16:9 | 2 | ausstehend | prompts.md §1 |
 | `heroes/damas-fade-1x1.png` | nano_banana_pro 2k | 1:1 | 2 | ausstehend | §2 |
 | `heroes/damas-bart-1x1.png` | nano_banana_pro 2k | 1:1 | 2 | ausstehend | §3 |
 | `heroes/damas-kids-1x1.png` | nano_banana_pro 2k | 1:1 | 2 | ausstehend | §4 |
@@ -17,6 +17,7 @@ Stand: 17.10.2026 · Higgsfield-Workspace „Private“, 28 Credits · Budget ma
 
 | Datei | Inhalt |
 | --- | --- |
+| `prompts.md` | Alle Prompts mit eingebauter Palette (für die Weboberfläche) |
 | `damas-tokens.css` | Farb-Tokens, Holzlamellen-Muster, Marmor-Overlay, Nacht-Sektion, goldene Trennlinie, Ken-Burns-Zoom |
 | `palette.md` | Palette mit Hex-Werten und Regeln |
 | `embed-guide.md` | HTML/CSS-Snippets für alle Platzierungen |
