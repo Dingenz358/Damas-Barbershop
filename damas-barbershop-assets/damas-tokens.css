@@ -57,7 +57,7 @@ body {
 .damas-marble {
   background:
     linear-gradient(rgba(243, 241, 236, 0.72), rgba(243, 241, 236, 0.72)),
-    url("extras/textures/damas-marble.png") center / cover;
+    url("extras/textures/damas-marble.webp") center / cover;
 }
 
 /* „Nacht“-Sektion: Chesterfield + Gold, max. 1–2 pro Seite */

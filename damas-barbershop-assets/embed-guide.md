@@ -40,9 +40,9 @@ Das Banner hat rechts den Stuhl und links freie Fläche. Die Headline steht desh
 ```html
 <section class="hero">
   <div class="hero__media">
-    <img class="damas-kenburns" src="banner/damas-banner.png" alt="" fetchpriority="high">
+    <img class="damas-kenburns" src="banner/damas-banner.webp" alt="" fetchpriority="high">
     <!-- Falls später ein Video entsteht, ersetzt es das <img>:
-    <video class="hero__video" autoplay muted loop playsinline poster="banner/damas-banner.png">
+    <video class="hero__video" autoplay muted loop playsinline poster="banner/damas-banner.webp">
       <source src="motion/damas-loop.mp4" type="video/mp4">
     </video> -->
   </div>
@@ -75,15 +75,15 @@ Das Banner hat rechts den Stuhl und links freie Fläche. Die Headline steht desh
   <h2>Leistungen</h2>
   <div class="services__grid">
     <article class="card">
-      <img src="heroes/damas-fade-1x1.png" alt="Fade wird mit dem Clipper geschnitten" loading="lazy">
+      <img src="heroes/damas-fade-1x1.webp" alt="Fade wird mit dem Clipper geschnitten" loading="lazy">
       <h3>Haarschnitt &amp; Fade</h3><p>Sauber verblendet, genau so, wie du es willst.</p>
     </article>
     <article class="card">
-      <img src="heroes/damas-bart-1x1.png" alt="Bartkontur mit dem Rasiermesser" loading="lazy">
+      <img src="heroes/damas-bart-1x1.webp" alt="Bartkontur mit dem Rasiermesser" loading="lazy">
       <h3>Bart</h3><p>Kontur mit dem Messer, Pflege, fertig.</p>
     </article>
     <article class="card">
-      <img src="heroes/damas-kids-1x1.png" alt="Kind beim Haarschnitt im Barberstuhl" loading="lazy">
+      <img src="heroes/damas-kids-1x1.webp" alt="Kind beim Haarschnitt im Barberstuhl" loading="lazy">
       <h3>Kinder</h3><p>Geduld und ein Schnitt, auf den sie stolz sind.</p>
     </article>
   </div>
@@ -108,7 +108,7 @@ Das Banner hat rechts den Stuhl und links freie Fläche. Die Headline steht desh
     <h2>Vater &amp; Sohn.</h2>
     <p>Hussein ist Friseurmeister, Ali steht seit Jahren an seiner Seite. Bei uns bist du nicht Kunde, sondern Familie.</p>
   </div>
-  <img src="detail/damas-tools-16x9.png" alt="Schere, Clipper, Kamm und Rasiermesser auf Marmor" loading="lazy">
+  <img src="detail/damas-tools-16x9.webp" alt="Schere, Clipper, Kamm und Rasiermesser auf Marmor" loading="lazy">
 </section>
 
 <style>
